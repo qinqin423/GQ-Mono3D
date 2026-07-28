@@ -92,7 +92,7 @@ Resources:
 This project inherits dependencies from 3D-MOOD and Vis4D. Please refer to the original 3D-MOOD documentation for detailed environment setup.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/qinqin423/GQ-Mono3D.git
 cd GQ-Mono3D
 pip install -r requirements.txt
 ```
@@ -105,7 +105,6 @@ Training and evaluation entry points are provided through Vis4D CLI and scripts.
 
 Key scripts:
 - `scripts/demo.py`: Official 3D-MOOD demo
-- `scripts/demo_my.py`: Custom demo with geometric quality visualization
 - `scripts/run_eval.py`: Evaluation script for Omni3D format datasets
 
 The primary configuration file for SUN RGB-D 10-class experiments is located at `opendet3d/zoo/gdino3d/gdino3d_swin_t_sunrgbd10.py`.
