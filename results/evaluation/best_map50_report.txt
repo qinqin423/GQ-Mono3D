@@ -1,0 +1,29 @@
+GQ-Mono3D Evaluation Report
+============================
+
+Project: GQ-Mono3D
+Dataset: SUN RGB-D test split
+Test Images: 5050
+Number of Classes: 10
+
+Classes:
+  1. bathtub
+  2. bed
+  3. bookshelf
+  4. chair
+  5. desk
+  6. dresser
+  7. nightstand
+  8. sofa
+  9. table
+  10. toilet
+
+Evaluator: Omni3DEvaluator
+Checkpoint: best_map50
+
+Results:
+  3D mAP@0.25: 0.5201
+  3D mAP@0.50: 0.2676
+  Inference Speed: 4.49 FPS
+
+Note: This is a sanitized summary extracted from official offline evaluation output.

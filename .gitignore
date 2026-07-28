@@ -1,0 +1,69 @@
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.bak_*
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+
+# Temporary data
+*.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output directories
+outputs/
+data/
+saved_ckpts*/
+checkpoints/
+
+# WandB
+wandb/
+
+# Cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.dockerignore
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Test and build cache
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Exported models
+*.onnx
+*.engine
+*.trt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Internal publication notes
+PUBLICATION_PLAN.md
+
+# Development snapshots and local debug scripts
+opendet3d/model/detect3d/grounding_dino_3d_before_ugr.py
+opendet3d/model/detect3d/grounding_dino_3d_gcr_final.py
+scripts/demo_my.py
+scripts/demo_my_1.py
+scripts/demo_run.py

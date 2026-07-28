@@ -1,0 +1,3 @@
+method,checkpoint,map_025,map_050,fps
+3D-MOOD baseline,baseline,0.5299,0.2350,4.50
+GQ-Mono3D,best_map50,0.5201,0.2676,4.49
